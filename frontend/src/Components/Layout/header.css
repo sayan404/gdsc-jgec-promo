@@ -1,0 +1,52 @@
+.headerMainContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vmax;
+}
+
+.leftSecton {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftSecton>img {
+    height: 20vh;
+    width: auto;
+    transform: translateX(4vw);
+}
+
+.rightSecton {
+    width: 60%;
+}
+
+.Home,
+.About,
+.Events,
+.Projects,
+.Team,
+.Contact {
+    padding: 10px;
+    color: white;
+    border-bottom: 3px solid blue;
+    background-color: rgba(7, 143, 247, 0.608);
+}
+
+.rightSecton>ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightSecton>ul>a {
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    font: 500 1.8vh roboto;
+}

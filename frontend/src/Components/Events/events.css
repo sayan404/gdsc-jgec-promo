@@ -1,0 +1,45 @@
+.eventParentDiv{
+    overflow-x: hidden !important;
+}
+.eventContainerMain {
+    max-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0.14);
+}
+.eventText{
+    height: 13vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.eventUs{
+    padding: 6vh 2vh 3.5vh 2vh;
+    border-bottom: 3px solid #0b15259a;
+    font: 600 4vh Droid Sans;
+    color: #0b15259a;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.pastEventText{
+    padding-top: 10vh ;
+    text-align: center;
+    font: 600 2.6vh roboto;
+    letter-spacing: 1.6px;
+    color: red;
+}
+.eventContainer{
+    display: flex;
+    width: 100%;
+    overflow: hidden !important;
+    margin-top: 10vh;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.moreEvents{
+    margin: 5vh auto;
+    height: 10vh;
+    overflow: hidden;
+}

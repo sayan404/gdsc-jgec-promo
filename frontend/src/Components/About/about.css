@@ -1,0 +1,75 @@
+
+.aboutContainerMain {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 255, 255, 0.14);
+}
+
+.aboutText {
+    height: 13vh;
+    display: flex;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.aboutCardSection {
+    margin: 5vh;
+    padding: 10vh;
+    width: 80vw;
+    gap: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutUs {
+    padding: 6vh 2vh 3.5vh 2vh;
+    border-bottom: 3px solid #0b15259a;
+    font: 600 4vh Droid Sans;
+    color: #0b15259a;
+    letter-spacing: 1px;
+    overflow: hidden;
+    
+}
+
+.aboutCard {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3vw;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+    position: relative;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+
+.aboutCard:hover {
+    transition: all 0.3s ease-in-out;
+    /* transform: translateX(20px); */
+    transform: scale(1.05) !important;
+    .extraDiv-1,
+    .extraDiv-2 {
+        transform: rotateZ(35deg);
+        transition: all 0.5s ease;
+    }
+}
+
+.aboutCardInnerDiv {
+    display: flex;
+    align-items: center;
+    font: 800 4vh Product Sans;
+    letter-spacing: 0.6px;
+    color: #4285F4;
+}
+
+.aboutCard>span {
+    padding: 4vh 2vh;
+    font: 2.5vh Product Sans;
+    word-wrap: break-word;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 30px;
+    color: rgba(0, 0, 0, 0.509);
+}

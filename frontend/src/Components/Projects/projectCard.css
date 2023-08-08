@@ -1,0 +1,74 @@
+.projectCardDiv {
+    width: 40vmax;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: rgb(48, 48, 48);
+    margin: 1.5vmax;
+    padding: 2vmax;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+
+.projectCardDiv:hover {
+    transform: scale(1.05) !important;
+    .extraDiv-1,
+    .extraDiv-2 {
+        transform: rotateZ(35deg);
+        transition: all 0.5s ease;
+    }
+
+}
+
+.name {
+    font: 300 4vh Product Sans;
+    color: rgba(41, 94, 94, 0.58);
+}
+
+.projectManager {
+    padding: 2vh;
+    font: 300 3vh Product Sans;
+    color: #4285F4;
+}
+.projectManager:hover{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.description {
+    font: 300 2vh Product Sans;
+    padding: 0 4vh;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.extraDiv-2 {
+    height: 11vh;
+    width: 15vh;
+    background-color: red;
+    position: absolute;
+    bottom: -5vh;
+    left: -5vh;
+    transform: rotateZ(-30deg);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
+.extraDiv-1 {
+    height: 11vh;
+    width: 15vh;
+    background-color: red;
+    position: absolute;
+    top: -5vh;
+    right: -5vh;
+    transform: rotateZ(-30deg);
+    border-radius: 20px;
+    transition: all 0.5s ease;
+}
