@@ -6,6 +6,7 @@
     flex-direction: row;
     background-color: rgba(0, 255, 255, 0.14);
     padding: 10vh;
+    overflow: hidden !important;
 }
 
 .contactText {
@@ -22,7 +23,7 @@
     letter-spacing: 1px;
 }
 .extraStyle{
-    margin-bottom: 6vh;
+    margin: 6vh;
 }
 
 .leftDiv {
@@ -113,8 +114,8 @@
     transform: rotateZ(10deg)
 }
 .spcl{
-    height: 15vh;
-    width: 15vh;
+    height: 10vh;
+    width: 10vh;
     right: -5vh;
 }
 @media only screen and (max-width: 1000px) {
@@ -125,7 +126,7 @@
         height: 1500%;
         width: 100%;
         margin: 0;
-        overflow: scroll !important;
+        overflow: hidden !important;
     }
     .rightDiv{
         height: 1000%;
