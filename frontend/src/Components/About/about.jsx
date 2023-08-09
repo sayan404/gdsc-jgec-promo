@@ -19,7 +19,7 @@ function About() {
       <Header highLight={highLight} className='specialhead' />
       <div className='aboutContainerMain'>
         <div className='aboutText'>
-          <span className='aboutUs'>ABOUT GDSC X JGEC </span>
+          <span className='aboutUs'>ABOUT GDSC </span>
         </div>
         <div className='aboutCardSection'>
           <div className='aboutCard' data-aos="fade-left" data-aos-duration="800">
