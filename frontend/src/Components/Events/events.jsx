@@ -2,7 +2,6 @@ import React, { useState } from 'react'
 import Header from '../Layout/header'
 import './events.css'
 import EventCard from './eventCard'
-import eventDSCLogo from '../../assets/eventDSCLogo.png'
 import { Button } from '@mui/material'
 import DirectionsRunIcon from '@mui/icons-material/DirectionsRun';
 import { Link } from 'react-router-dom'

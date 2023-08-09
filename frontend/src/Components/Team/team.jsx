@@ -153,7 +153,7 @@ const Team = () => {
       <div className='teamContainerMain'>
         <div className='team-2023'>
           <div className='teamText'>
-            <span className='teamUs'>Meet Our Team</span>
+            <span className='teamUs'>Meet Our Team -2023</span>
           </div>
           <div className='teamCardDiv' data-aos="flip-right" data-aos-duration="800">
             <img src={female} alt='logo' />

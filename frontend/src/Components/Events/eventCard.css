@@ -70,3 +70,12 @@ a {
     background-color: #0F9D58;
     border-radius: 20px;
 }
+@media only screen and (max-width: 800px) {
+
+    .ev-2,
+    .ev-1 {
+        display: none;
+
+    }
+
+}

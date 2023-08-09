@@ -43,6 +43,7 @@
     background-color: rgb(255, 255, 255);
     border-radius: 20px;
     border: 5px solid #0F9D58;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .teamCardDiv:hover {
@@ -95,7 +96,7 @@
 .tm-1 {
     height: 11vh;
     width: 15vh;
-    background-color: red;
+    background-color: #0F9D58;
     position: absolute;
     bottom: -5vh;
     left: -5vh;
@@ -107,7 +108,7 @@
 .tm-2 {
     height: 11vh;
     width: 15vh;
-    background-color: red;
+    background-color: #0F9D58;
     position: absolute;
     top: -5vh;
     right: -5vh;

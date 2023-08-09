@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    width: 100vmax;
+    width: 100vw;
 }
 
 .leftSecton {
@@ -31,9 +31,9 @@
 .Team,
 .Contact {
     padding: 10px;
-    color: white;
+    color: green;
     border-bottom: 3px solid blue;
-    background-color: rgba(7, 143, 247, 0.608);
+    background-color: rgba(211, 231, 247, 0.608);
 }
 
 .rightSecton>ul {

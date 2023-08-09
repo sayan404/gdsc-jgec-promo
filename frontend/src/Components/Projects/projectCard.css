@@ -11,10 +11,14 @@
     box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
     overflow: hidden;
     transition: all 0.5s ease;
+    border-radius: 20px;
+    border: 4px solid green;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
 }
 
 .projectCardDiv:hover {
     transform: scale(1.05) !important;
+
     .extraDiv-1,
     .extraDiv-2 {
         transform: rotateZ(35deg);
@@ -33,7 +37,8 @@
     font: 300 3vh Product Sans;
     color: #4285F4;
 }
-.projectManager:hover{
+
+.projectManager:hover {
     text-decoration: underline;
 }
 
@@ -53,7 +58,7 @@ a:hover {
 .extraDiv-2 {
     height: 11vh;
     width: 15vh;
-    background-color: red;
+    background-color: green;
     position: absolute;
     bottom: -5vh;
     left: -5vh;
@@ -61,14 +66,25 @@ a:hover {
     border-radius: 20px;
     transition: all 0.5s ease;
 }
+
 .extraDiv-1 {
     height: 11vh;
     width: 15vh;
-    background-color: red;
+    background-color: green;
     position: absolute;
     top: -5vh;
     right: -5vh;
     transform: rotateZ(-30deg);
     border-radius: 20px;
     transition: all 0.5s ease;
+}
+
+@media only screen and (max-width: 800px) {
+
+    .extraDiv-1,
+    .extraDiv-2 {
+        display: none;
+
+    }
+
 }
