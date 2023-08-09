@@ -12,7 +12,7 @@ const EventCard = ({ link, date, type, description }) => {
 
     return (
         <>
-            <Link to={`${link}`}>
+            <Link to={`${link}`} target='_blank'>
                 <div className='eventCardDiv' data-aos="flip-right" data-aos-duration="800">
                     <p className='type'>{type}</p>
                     <p className='dates'>{date}</p>

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import './header.css'
-import gdscLogo from '../../assets/gdsc.png'
+import gdscLogo from '../../assets/gdsc.jpeg'
 import { Link } from 'react-router-dom'
 import HomeIcon from '@mui/icons-material/Home'
 import CallIcon from '@mui/icons-material/Call';

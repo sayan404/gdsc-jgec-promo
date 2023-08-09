@@ -71,7 +71,7 @@ const Projects = () => {
           }
         </div>
         <div className='moreEvents'>
-          <Link to={'https://github.com/gdscjgec'}><Button endIcon={<DirectionsRunIcon />} variant='contained' sx={{ width: '10vw', height: '7vh', padding: '2vh 10vh', margin: '0 auto' }}>More Projects</Button></Link>
+          <Link to={'https://github.com/gdscjgec'} target='_blank'><Button endIcon={<DirectionsRunIcon />} variant='contained' sx={{ width: '10vw', height: '7vh', padding: '2vh 10vh', margin: '0 auto' }}>More Projects</Button></Link>
         </div>
       </div>
     </div>

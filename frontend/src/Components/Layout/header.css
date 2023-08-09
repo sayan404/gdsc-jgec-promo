@@ -15,7 +15,8 @@
 }
 
 .leftSecton>img {
-    height: 20vh;
+    height: 10vh;
+    padding: 5vh;
     width: auto;
     transform: translateX(4vw);
 }

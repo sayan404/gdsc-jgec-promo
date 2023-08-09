@@ -18,13 +18,13 @@ const ProjectCard = ({ previewLink, repoLink, name, description, projectManager 
         <>
             <div className='projectCardDiv' data-aos="flip-right" data-aos-duration="800">
                 <p className='name'>{name}</p>
-                <Link to={`${repoLink}`}>
+                <Link to={`${repoLink}`} target='_blank'>
                     <p className='projectManager'>{projectManager}</p>
                 </Link>
                 <p className='description'>{description}</p>
                 <div className='buttons'>
-                    <Link to={`${previewLink}`}><Button variant='contained' color='primary' sx={{ width: '10vw', margin: '0 auto' }}>Preview</Button></Link>
-                    <Link to={`${repoLink}`}><Button variant='contained' color='success' sx={{ backgroundColor: '#0F9D58', width: '10vw', margin: '0 auto', margin: '2vh' }}>Repository</Button></Link>
+                    <Link to={`${previewLink}`} target='_blank'><Button variant='contained' color='primary' sx={{ width: '10vw', margin: '0 auto' }}>Preview</Button></Link>
+                    <Link to={`${repoLink}`} target='_blank'><Button variant='contained' color='success' sx={{ backgroundColor: '#0F9D58', width: '10vw', margin: '0 auto', margin: '2vh' }}>Repository</Button></Link>
                 </div>
                 <div className='extraDiv-1'></div>
                 <div className='extraDiv-2'></div>

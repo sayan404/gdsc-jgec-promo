@@ -81,7 +81,7 @@ const Events = () => {
             }
           </div>
           <div className='moreEvents'>
-            <Link to={'https://gdsc.community.dev/jalpaiguri-government-engineering-college-jalpaiguri/'}><Button endIcon={<DirectionsRunIcon />} variant='contained' sx={{width : '10vw' , height : '8vh', margin : '0 auto'}}>More Events</Button></Link>
+            <Link to={'https://gdsc.community.dev/jalpaiguri-government-engineering-college-jalpaiguri/'} target='_blank'><Button endIcon={<DirectionsRunIcon />} variant='contained' sx={{width : '10vw' , height : '8vh', margin : '0 auto'}}>More Events</Button></Link>
           </div>
         </div>
       </div>

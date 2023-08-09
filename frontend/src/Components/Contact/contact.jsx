@@ -75,27 +75,27 @@ const Contact = () => {
                         <span className='contact extraStyle'>Follow Us On</span>
                     </div>
                     <div className='icons' >
-                        <Link to='https://github.com/gdscjgec' ><GitHubIcon sx={{
+                        <Link to='https://github.com/gdscjgec' target='_blank'><GitHubIcon sx={{
                             fontSize: 35, padding: '2vh', color: '#4285F4', '&:hover': {
                                 color: '#0F9D58'
                             }
                         }} /></Link>
-                        <Link to='https://www.linkedin.com/company/gdscjgec/' ><LinkedInIcon sx={{
+                        <Link to='https://www.linkedin.com/company/gdscjgec/' target='_blank' ><LinkedInIcon sx={{
                             fontSize: 35, padding: '2vh', color: '#DB4437', '&:hover': {
                                 color: '#F4B400'
                             }
                         }} /></Link>
-                        <Link to='https://instagram.com/gdscjgec?igshid=OGQ5ZDc2ODk2ZA' ><InstagramIcon sx={{
+                        <Link to='https://instagram.com/gdscjgec?igshid=OGQ5ZDc2ODk2ZA'target='_blank' ><InstagramIcon sx={{
                             fontSize: 35, padding: '2vh', color: '#F4B400', '&:hover': {
                                 color: '#DB4437'
                             }
                         }} /></Link>
-                        <Link to='https://twitter.com/gdscjgec?t=Z-FwIoySG0C8zNSAyA7QHw&s=09' ><TwitterIcon sx={{
+                        <Link to='https://twitter.com/gdscjgec?t=Z-FwIoySG0C8zNSAyA7QHw&s=09' target='_blank'><TwitterIcon sx={{
                             fontSize: 35, padding: '2vh', color: '#0F9D58', '&:hover': {
                                 color: '#4285F4'
                             }
                         }} /></Link>
-                        <Link to='https://www.youtube.com/@GDSCJGEC' ><YouTubeIcon sx={{
+                        <Link to='https://www.youtube.com/@GDSCJGEC' target='_blank'  ><YouTubeIcon sx={{
                             fontSize: 35, padding: '2vh', color: '#DB4437', '&:hover': {
                                 color: '#F4B400'
                             }
