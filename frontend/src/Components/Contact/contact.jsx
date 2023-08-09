@@ -44,7 +44,7 @@ const Contact = () => {
                 {/* onSubmit={submitHandler} */}
                 <div className='leftDiv' data-aos="flip-right" data-aos-duration="800">
                     <div className='contactText'>
-                        <span className='contact'>Lets Get in Touch</span>
+                        <span className='contact'>Let's Get in Touch</span>
                     </div>
                     <form ref={form} onSubmit={sendEmail}>
                         <div className='formName'>
