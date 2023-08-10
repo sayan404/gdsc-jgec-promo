@@ -14,7 +14,9 @@ import Diversity3Icon from '@mui/icons-material/Diversity3';
 import { useNavigate } from 'react-router-dom'
 const Header = ({ highLight }) => {
   const navigate = useNavigate()
-  const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(true)
+  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
   const actionsForLoogedInUsers = [
     { icon: <HomeIcon />, name: 'Home', func: home },
     { icon: <InfoIcon />, name: 'about', func: about },
@@ -45,11 +47,26 @@ const Header = ({ highLight }) => {
   const showMenuHandler = () => {
     open ? setOpen(false) : setOpen(true)
   }
+
+  
+  useEffect(() => {
+    // Update window width when the window is resized
+    const handleResize = () => {
+      setWindowWidth(window.innerWidth);
+    };
+    // handleResize()
+    window.addEventListener('resize', handleResize);
+
+    // Clean up the event listener when the component is unmounted
+    // return () => {
+    //   window.removeEventListener('resize', handleResize);
+    // };
+  }, []);
   return (
     <>
       {
-        (!window.innerWidth == '600') ?
-          <Box sx={{ height: '100%', transform: 'translateZ(0px)', flexGrow: 1 }} className='speedDial'>
+        (windowWidth === 600) ?
+         ( <Box sx={{ height: '100%', zIndex : '5', transform: 'translateZ(0px)', flexGrow: 1 }} className='speedDial'>
             <SpeedDial
               ariaLabel="SpeedDial basic example"
               className='speedDialIcon' alt='Profile'
@@ -66,8 +83,8 @@ const Header = ({ highLight }) => {
                 />
               ))}
             </SpeedDial>
-          </Box>
-          : <div className='headerMainContainer'>
+          </Box>)
+          : (<div className='headerMainContainer'>
             <div className='leftSecton'>
               <img src={gdscLogo} className='gdscLogo' />
             </div>
@@ -81,7 +98,7 @@ const Header = ({ highLight }) => {
                 <Link to={'/contact'}><p className={(highLight === 'Contact') ? "Contact" : ""} >Contact</p></Link>
               </ul>
             </div>
-          </div>
+          </div>)
 
       }
     </>
